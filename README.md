@@ -1,12 +1,45 @@
-# React + Vite
+# 🌤️ Aplicación del Clima - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Autor:** Felipe de Jesús Bernal Gazca 
+**Universidad:** Universidad Tecnológica de Linares 
+**Metodología aplicada:** SCRUM
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción del proyecto
 
-## Expanding the ESLint configuration
+Esta aplicación permite consultar el clima actual de cualquier ciudad utilizando la API de OpenWeather. Fue desarrollada con React y Vite, siguiendo una metodología ágil (SCRUM) en tres sprints.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Funcionamiento
+
+- El usuario ingresa el nombre de una ciudad.
+- La aplicación realiza una petición a la API de OpenWeather.
+- Se muestran datos como temperatura, humedad, descripción del clima y velocidad del viento.
+
+---
+
+## Instalación y ejecución
+
+### Requisitos previos
+
+- Node.js instalado
+- Cuenta gratuita en [OpenWeather](https://openweathermap.org/api) para obtener una API key
+
+### Pasos
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/Felipe694/clima_react.git
+cd App
+
+# Instalar dependencias
+npm install
+
+# API key
+echo "b992704c7824da33d4211b8bf1316329 
+
+# Ejecutar el proyecto
+npm run dev
+
